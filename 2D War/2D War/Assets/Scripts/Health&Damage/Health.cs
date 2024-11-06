@@ -236,6 +236,7 @@ public class Health : MonoBehaviour
             {
                 gameObject.GetComponent<Enemy>().DoBeforeDestroy();
             }
+           
             Destroy(this.gameObject);
         }
     }
@@ -258,6 +259,7 @@ public class Health : MonoBehaviour
         {
             gameObject.GetComponent<Enemy>().DoBeforeDestroy();
         }
+        Debug.Log("Salam");
         Destroy(this.gameObject);
     }
 }

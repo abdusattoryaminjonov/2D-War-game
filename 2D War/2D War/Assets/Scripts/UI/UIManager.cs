@@ -164,6 +164,7 @@ public class UIManager : MonoBehaviour
     public void UpdateUI()
     {
         SetUpUIElements();
+        Debug.Log(UIelements.Count);
         foreach (UIelement uiElement in UIelements)
         {
             uiElement.UpdateUI();
